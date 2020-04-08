@@ -1,0 +1,27 @@
+<div class="content-container" style="height: 100%;">
+    <clr-vertical-nav [clrVerticalNavCollapsible]="true" [(clrVerticalNavCollapsed)]="collapsed">
+        <a clrVerticalNavLink routerLink="./overview" routerLinkActive="active">
+            <clr-icon clrVerticalNavIcon shape="user" class="is-solid"></clr-icon>
+            About
+        </a>
+        <a clrVerticalNavLink routerLink="./contact-info" routerLinkActive="active">
+            <clr-icon clrVerticalNavIcon shape="phone-handset" class="is-solid"></clr-icon>
+            Contact Information
+        </a>
+        <a clrVerticalNavLink routerLink="./education" routerLinkActive="active">
+            <clr-icon clrVerticalNavIcon shape="book" class="is-solid"></clr-icon>
+            Education
+        </a>
+        <a clrVerticalNavLink routerLink="./certificates" routerLinkActive="active">
+            <clr-icon clrVerticalNavIcon shape="clipboard" class="is-solid"></clr-icon>
+            Certificates
+        </a>
+    </clr-vertical-nav>
+    <div class="content-area">
+        <h4 style="text-indent: 2em; font-style:italic;">
+            {{description}} 
+        </h4>
+        <hr>
+        <router-outlet></router-outlet>
+    </div>
+</div>
