@@ -9,11 +9,19 @@ import { ClarityModule } from '@clr/angular';
 import { EducationComponent } from './education/education.component';
 import { CertificatesComponent } from './certificates/certificates.component';
 import { AgGridAngular, AgGridModule } from 'ag-grid-angular';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
-  declarations: [AboutComponent, NavbarComponent, ContactInfoComponent, EducationComponent, CertificatesComponent],
+  declarations: [
+    AboutComponent, 
+    NavbarComponent, 
+    ContactInfoComponent, 
+    EducationComponent, 
+    CertificatesComponent
+  ],
   imports: [
+    SharedModule,
     CommonModule,
     PersonalInfoRoutingModule,
     ClarityModule,

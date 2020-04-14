@@ -6,14 +6,7 @@ import { WEOverviewComponent } from './we-overview/we-overview.component';
 
 const routes: Routes = [
   {
-    path:'', component:WENavbarComponent, children:[
-      {
-        path:'overview', component:WEOverviewComponent
-      },
-      {
-        path:'', redirectTo:'work-experience/overview', pathMatch:'full'
-      }
-    ]
+    path:'overview', component:WEOverviewComponent
   }
 ];
 

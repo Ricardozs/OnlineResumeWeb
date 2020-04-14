@@ -6,11 +6,13 @@ import { AboutNavbarComponent } from './about-navbar/about-navbar.component';
 import { AboutOverviewComponent } from './about-overview/about-overview.component';
 import { ClarityModule } from '@clr/angular';
 import { StructureComponent } from './structure/structure.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
   declarations: [AboutNavbarComponent, AboutOverviewComponent, StructureComponent],
   imports: [
+    SharedModule,
     CommonModule,
     AboutRoutingModule,
     ClarityModule

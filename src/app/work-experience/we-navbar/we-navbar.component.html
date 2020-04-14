@@ -1,20 +1,9 @@
 <div class="content-container" style="height: 100%;">
-    <clr-vertical-nav [clrVerticalNavCollapsible]="true" [(clrVerticalNavCollapsed)]="collapsed">
-        <a clrVerticalNavLink routerLink="./overview" routerLinkActive="active">
-            <clr-icon clrVerticalNavIcon shape="home" class="is-solid"></clr-icon>
-            About
-        </a>
-        <a clrVerticalNavLink routerLink="./structure" routerLinkActive="active">
-            <clr-icon clrVerticalNavIcon shape="grid-view" class="is-solid"></clr-icon>
-            Structure
-        </a>
-        
-    </clr-vertical-nav>
     <div class="content-area">
         <h4 style="text-indent: 2em; font-style:italic;">
             {{description}} 
         </h4>
         <hr>
-        <router-outlet></router-outlet>
+        <horizontal-timeline [timelineElements]="timeline" [showContent]="true"></horizontal-timeline>
     </div>
 </div>

@@ -1,11 +1,11 @@
 <div class="content-container" style="height: 100%;">
     <clr-vertical-nav [clrVerticalNavCollapsible]="true" [(clrVerticalNavCollapsed)]="collapsed">
         <a clrVerticalNavLink routerLink="./overview" routerLinkActive="active">
-            <clr-icon clrVerticalNavIcon shape="home" class="is-solid"></clr-icon>
+            <clr-icon clrVerticalNavIcon shape="home" ></clr-icon>
             About
         </a>
         <a clrVerticalNavLink routerLink="./structure" routerLinkActive="active">
-            <clr-icon clrVerticalNavIcon shape="grid-view" class="is-solid"></clr-icon>
+            <clr-icon clrVerticalNavIcon shape="grid-view" ></clr-icon>
             Structure
         </a>
         
@@ -18,3 +18,4 @@
         <router-outlet></router-outlet>
     </div>
 </div>
+<app-footer></app-footer>

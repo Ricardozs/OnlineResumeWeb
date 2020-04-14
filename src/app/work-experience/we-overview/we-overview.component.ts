@@ -8,6 +8,7 @@ import { TimelineElement } from '../horizontal-timeline/timeline-element';
   styleUrls: ['./we-overview.component.scss']
 })
 export class WEOverviewComponent implements OnInit {
+  description = 'Section where you can find my work experience in formal jobs or freelance projects, displayed in a time line'
   content = {
     quianty: 'FullStack developer of web applications (in visual studio), working with the architecture MVC, using HTML, CSS, JavaScript, JQuery, and Ajax for the frontend, C# for the backend and Mysql for the database. Being part of the whole life cycle of the apps (Planning, analysis, design, coding, implementation, testing). Creation of view and partial view to display the data to the client an optimize performance. Ado.net an entity framework to manage the database. Design and Implementation of the UI.',
     neverEnding: 'C# developer of the games, all the logic, and physics of the game. Creating animations and interfaces. Implementing new classes and methods, coroutines, delegates, and events to check changes in the game and trigger something according to that.',

@@ -1,1 +1,17 @@
-<horizontal-timeline [timelineElements]="timeline" [showContent]="true"></horizontal-timeline>
+<div class="content-container" style="height: 100%;">
+    <div class="content-area">
+        <h4 style="text-indent: 2em; font-style: italic;">
+            {{description}}
+        </h4>
+        <hr />
+        <div class="card">
+            <div class="card-header text-center">
+                <label class="text-center">My Work Experience</label>
+            </div>
+            <div class="card-block">
+                <horizontal-timeline [timelineElements]="timeline" [showContent]="true"></horizontal-timeline>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
