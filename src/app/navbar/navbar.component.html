@@ -1,14 +1,14 @@
-<header class="header header-1" style="height: 100%;">
+<clr-header>
     <div class="branding">
         <a routerLink="./about/overview" class="nav-link">
             <span class="clr-icon resumeLogo"></span>
             <span class="title">Ricardo's Resume</span>
         </a>
     </div>
-    <div class="header-nav">
+    <div class="header-nav" [clr-nav-level]="1">
         <a routerLink="./about/overview" routerLinkActive="active" class="nav-link"><span class="nav-text">About</span></a>
         <a routerLink="./personal-information/overview" routerLinkActive="active" class="nav-link"><span class="nav-text">Personal Information</span></a>
         <a routerLink="./skills/overview"  routerLinkActive="active" class="nav-link"><span class="nav-text">Skils</span></a>
         <a routerLink="./work-experience/overview"  routerLinkActive="active" class="nav-link"><span class="nav-text">Work Experience</span></a>
     </div>
-</header>
+</clr-header>

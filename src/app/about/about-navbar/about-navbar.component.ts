@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-navbar.component.scss']
 })
 export class AboutNavbarComponent implements OnInit {
-  collapsed: false;
+  collapsed: true;
   description = 'Section where I explain the purpose of this app';
 
   constructor() { }
