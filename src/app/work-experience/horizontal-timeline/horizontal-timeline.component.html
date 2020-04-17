@@ -22,7 +22,7 @@
                     [ngClass]="{'inactive':prevLinkInactive}">Prev</a>
             </li>
             <li>
-                <a href="#" (click)="onScrollClick($event, true)" class="next"
+                <a href="#" (click)="!nextLinkInactive && onScrollClick($event, true)" class="next"
                     [ngClass]="{'inactive':nextLinkInactive}">Next</a>
             </li>
         </ul>

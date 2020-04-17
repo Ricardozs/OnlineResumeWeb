@@ -10,7 +10,11 @@ import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
-  declarations: [AboutNavbarComponent, AboutOverviewComponent, StructureComponent],
+  declarations: [
+    AboutNavbarComponent, 
+    AboutOverviewComponent, 
+    StructureComponent
+  ],
   imports: [
     SharedModule,
     CommonModule,
