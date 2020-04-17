@@ -23,11 +23,11 @@ export class WEOverviewComponent implements OnInit {
 
   ngOnInit(): void {
     this.timeline = [
-      { caption: 'Mar', date: new Date(2017, 2), endDate: new Date(2019, 0), selected: true, title: 'Quianty', position: '.NET Developer FullStack', content: this.content.quianty },
-      { caption: 'Jan', date: new Date(2019, 0), endDate: new Date(2019, 5), title: 'NeverEnding Games', position: 'C# Developer', content: this.content.neverEnding },
-      { caption: 'May', date: new Date(2019, 4), endDate: new Date(2020, 1), title: 'Herbalife', position: '.NET Developer', content: this.content.herbalife },
-      { caption: 'Oct', date: new Date(2019, 9), endDate: new Date(2020, 0), title: 'Pudding Street', position: '.NET Developer FullStack', content: this.content.puddingStreet },
-      { caption: 'May', date: new Date(2020, 1), title: 'TechBridge IT', position: 'Senior Angular Developer', content: this.content.techBridge },
+      { isFreelance: false, date: new Date(2017, 2), endDate: new Date(2019, 0), selected: true, title: 'Quianty', position: '.NET Developer FullStack', content: this.content.quianty },
+      { isFreelance: false, date: new Date(2019, 0), endDate: new Date(2019, 5), title: 'NeverEnding Games', position: 'C# Developer', content: this.content.neverEnding },
+      { isFreelance: false, date: new Date(2019, 4), endDate: new Date(2020, 1), title: 'Herbalife', position: '.NET Developer', content: this.content.herbalife },
+      { isFreelance: true, date: new Date(2019, 9), endDate: new Date(2020, 0), title: 'Pudding Street', position: '.NET Developer FullStack', content: this.content.puddingStreet },
+      { isFreelance: false, date: new Date(2020, 1), title: 'TechBridge IT', position: 'Senior Angular Developer', content: this.content.techBridge },
     ];
   }
 

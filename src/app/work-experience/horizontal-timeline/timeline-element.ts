@@ -1,5 +1,5 @@
 export interface TimelineElement {
-  caption: string;
+  isFreelance: boolean;
   date: Date;
   endDate?: Date;
   title: string;

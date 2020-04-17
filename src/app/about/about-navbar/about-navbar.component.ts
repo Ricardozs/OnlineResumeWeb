@@ -6,12 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-navbar.component.scss']
 })
 export class AboutNavbarComponent implements OnInit {
-  collapsed: true;
+  collapsed: boolean;
   description = 'Section where I explain the purpose of this app';
 
   constructor() { }
 
   ngOnInit(): void {
+    this.collapsed = true;
   }
 
 }
