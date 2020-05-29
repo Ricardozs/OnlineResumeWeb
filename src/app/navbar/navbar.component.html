@@ -6,9 +6,33 @@
         </a>
     </div>
     <div class="header-nav" [clr-nav-level]="1">
-        <a routerLink="./about/overview" routerLinkActive="active" class="nav-link"><span class="nav-text">About</span></a>
-        <a routerLink="./personal-information/overview" routerLinkActive="active" class="nav-link"><span class="nav-text">Personal Information</span></a>
-        <a routerLink="./skills/overview"  routerLinkActive="active" class="nav-link"><span class="nav-text">Skils</span></a>
-        <a routerLink="./work-experience/overview"  routerLinkActive="active" class="nav-link"><span class="nav-text">Work Experience</span></a>
+        <a
+            [routerLinkActiveOptions]="{ exact: false }"
+            routerLink="./about/"
+            routerLinkActive="active"
+            class="nav-link"
+            ><span class="nav-text">About</span></a
+        >
+        <a
+            [routerLinkActiveOptions]="{ exact: false }"
+            routerLink="./personal-information"
+            routerLinkActive="active"
+            class="nav-link"
+            ><span class="nav-text">Personal Information</span></a
+        >
+        <a
+            [routerLinkActiveOptions]="{ exact: false }"
+            routerLink="./skills"
+            routerLinkActive="active"
+            class="nav-link"
+            ><span class="nav-text">Skils</span></a
+        >
+        <a
+            [routerLinkActiveOptions]="{ exact: false }"
+            routerLink="./work-experience"
+            routerLinkActive="active"
+            class="nav-link"
+            ><span class="nav-text">Work Experience</span></a
+        >
     </div>
 </clr-header>

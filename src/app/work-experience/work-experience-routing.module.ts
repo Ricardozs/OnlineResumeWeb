@@ -6,7 +6,7 @@ import { WEOverviewComponent } from './we-overview/we-overview.component';
 
 const routes: Routes = [
   {
-    path:'overview', component:WEOverviewComponent
+    path:'', component:WEOverviewComponent
   }
 ];
 

@@ -272,10 +272,10 @@ export class HorizontalTimelineComponent implements AfterViewInit {
   translateTimeline(value: number, totWidth: number | null) {
     // only negative translate value
     value = (value > 0) ? 0 : value;
-    value = value/2.2
+    value = value/2
     // do not translate more than timeline width
     HorizontalTimelineComponent.setTransformValue(this.eventsWrapper.nativeElement, 'translateX', value + 'px');
-    this.nextLinkInactive = value < -400;
+    this.nextLinkInactive = value < -490;
     console.log(value)
     value = ( !(totWidth === null) && value < totWidth ) ? totWidth : value;
     // update navigation arrows visibility

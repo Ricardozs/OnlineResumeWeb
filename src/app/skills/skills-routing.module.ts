@@ -6,7 +6,7 @@ import { SkillsOverviewComponent } from './skills-overview/skills-overview.compo
 
 const routes: Routes = [
   {
-    path: 'overview', component: SkillsOverviewComponent
+    path: '', component: SkillsOverviewComponent
   }
 ];
 

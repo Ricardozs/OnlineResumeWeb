@@ -15,7 +15,7 @@ const routes: Routes = [
         path:'structure', component:StructureComponent
       },
       {
-        path:'', redirectTo:'about/overview', pathMatch: 'full'
+        path:'', redirectTo:'overview', pathMatch: 'full'
       },
     ]
   }

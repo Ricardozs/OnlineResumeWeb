@@ -14,7 +14,7 @@ const routes: Routes = [
       {path:'contact-info', component:ContactInfoComponent},
       {path:'education', component:EducationComponent},
       {path:'certificates', component:CertificatesComponent},
-      {path:'', redirectTo:'about/overview', pathMatch: 'full'},
+      {path:'', redirectTo:'overview', pathMatch: 'full'},
     ]
   }
 ];
