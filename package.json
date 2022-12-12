@@ -30,7 +30,7 @@
     "@webcomponents/webcomponentsjs": "^2.4.3",
     "ag-grid-angular": "^22.1.1",
     "ag-grid-community": "^22.1.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "moment": "^2.24.0",
     "ngx-horizontal-timeline": "0.0.6",
     "path": "^0.12.7",
